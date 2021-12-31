@@ -56,7 +56,9 @@ This is {BOT_NAME}[.]({EMILIA_START_IMG})
 
 A Diverse Systematic Bot Written in Python.
 You can Add Me In Your Group for Knowing my True Power.
-
+Bot to help you to Manage & Protect Your Groups.ㅤ
+So What are you Waiting For?
+ Add Me To Ur chat and start using me.
 You can either use /help or the Commands Button Given Below To get a list of my features!
 """
 
@@ -89,11 +91,11 @@ buttons = [
      
     ],
 ]
-
+       
 
 HELP_STRINGS = f"""
 `Hey there! My name is` [{BOT_NAME}]({EMILIA_HELP_IMG}) 
-I have Quite a Few Features, Go Ahead and Check out!"""
+I have Quite a Few Features, Go Ahead and Check out and explore!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -216,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Help", url=f"https://t.me/{BOT_USERNAME}?start=help")
                   ],
                   [
-                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/IzumiCypherX/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/Rdipofficial/Arni")
                   ]
                 ]
             ),
@@ -398,7 +400,7 @@ def get_help(update: Update, context: CallbackContext):
             InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="help_back"),
                                 InlineKeyboardButton(
-                                    text="Support", url="https://telegram.dog/TangentChats"
+                                    text="Support", url="https://telegram.dog/Aviebotofficial"
                                 )]]
             ),
         )
